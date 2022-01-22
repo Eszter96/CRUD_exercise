@@ -19,17 +19,17 @@ public class DemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		Employee employee = new Employee();
-		employee.setFirstName("John");
-		employee.setLastName("Doe");
-		employee.setEmailID("john@doe.com");
-		employeeRepository.save(employee);
-		
-		Employee employee1 = new Employee();
-		employee1.setFirstName("John");
-		employee1.setLastName("Doe2");
-		employee1.setEmailID("john2@doe.com");
-		employeeRepository.save(employee1);
+//		Employee employee = new Employee();
+//		employee.setFirstName("John");
+//		employee.setLastName("Doe");
+//		employee.setEmailID("john@doe.com");
+//		employeeRepository.save(employee);
+//		
+//		Employee employee1 = new Employee();
+//		employee1.setFirstName("John");
+//		employee1.setLastName("Doe2");
+//		employee1.setEmailID("john2@doe.com");
+//		employeeRepository.save(employee1);
 	}
 
 }
