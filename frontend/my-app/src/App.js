@@ -15,12 +15,14 @@ function App() {
             <Route path="/" exact element={<ListEmployeeComponent />}></Route>
             <Route
               path="/employees"
-              exact
               element={<ListEmployeeComponent />}
             ></Route>
             <Route
-              exact
               path="/add-employee"
+              element={<AddEmployeeComponent />}
+            ></Route>
+            <Route
+              path="/edit-employee/:id"
               element={<AddEmployeeComponent />}
             ></Route>
           </Routes>
