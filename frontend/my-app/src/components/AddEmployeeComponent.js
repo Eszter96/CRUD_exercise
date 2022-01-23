@@ -100,6 +100,7 @@ const AddEmployeeComponent = () => {
                 <button
                   className="btn btn-success"
                   onClick={(e) => saveOrUpdateEmployee(e)}
+                  style={{ marginRight: "10px" }}
                 >
                   Submit
                 </button>
